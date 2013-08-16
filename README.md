@@ -1,8 +1,8 @@
-Presentation-GDBandNeo4j
+Presentation for graph databases in general and [Neo4j](http://www.neo4j.org) in particular.
 ========================
 
 ## Abstract
-Presentation for graph databases in general and [Neo4j](http://www.neo4j.org) in particular.
+Presentation of graph databases in general and [Neo4j](http://www.neo4j.org) in particular.
 
 What is the difference, model wise, between a relational, graph and document database? A short explanation, right or wrong,
 that we often use a "faulty" model when saving data.
@@ -11,7 +11,7 @@ With Cypher (vs SQL) one describes _what_ to find instead of _how_ to find it.
 
 How do I get started with Neo4j in a Dotnet world?
 
-**If there is one and only one thing to remember after this talk it is:***
+**If there is one and only one thing to remember after this talk it is:**  
 [ **If every tool you have is a hammer then all problems are a nail.** ]
 
 
