@@ -1,0 +1,6 @@
+# Script
+
+CREATE (n:Person { name : 'Ola' }) return n;
+CREATE (n:Person { name : 'BillG' }) return n;
+Match a:Person, b:Person Where a.name='Ola' and b.name='BillG' Create a-[r:FRIEND]->b Return r;
+
