@@ -9,5 +9,6 @@ Mellan varje lista finns det relationer. De finns eller finns inte, det finns in
 SQL är ett mängbaserat språk.  Det finns ingen debugger.
 
 
+Jämför:
 (när excel listar ut vilka fält som påverkar vilka använder den en graf)  
 (debugger i sql stegar sig igenom steg, den kan inte beskriva mängderna)
