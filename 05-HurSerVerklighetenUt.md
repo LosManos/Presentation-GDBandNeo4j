@@ -1,22 +1,33 @@
+# Bild
+
+Bild med tre delar. Vänster: en graf, mitten en dokumentdatabasrepresentation och till höger fyrkanter och streck som representerar RDB.
+Man kan stå på olika sidor scen och berätta om de olika delarna/sätten att tänka.
+
+# Prat
+
 ## operativt
 
 Kan tänkas det mesta vi gör är operativt.  
-En läkare vill inte veta vilka mediciner en patient har av alla 10000 mediciner som har skrivits ut detta året. 
-Hen vill veta bara denna patienten.
+En läkare vill inte veta vilka mediciner en patient har av alla 10000 mediciner som har skrivits ut detta året.  
+Hen vill veta bara denna patienten.  
+Hens tid är dyr. Svarstider är viktigt. Det skall inte ta längre tid att hitta egenskaper hos en patient för att det är fler patienter på sjukhuset.  
 
 Typiskt GDB
 
-(RDB är typiskt _alla_ mediciner och sedan minskar man datamängden)
+I en GDB utgår man från en nod och traverserar till andra noder; man har ett (litet) stycke data och hittar mer data utifrån det.
+
+(RDB är typiskt _alla_ mediciner och sedan minskar man datamängden)  
 ..med GDB lägger vi till data i svaret istf filtrera bort..
 
 ## temporalt
 
-Data som är fixerade i tiden. Exempelvis kvitton.  
+Data som är fixerade i tiden. Exempelvis kvitton. Eller recept för en läkare.  
 Ett kvitto är utställt till någon oavsett om denna flyttar senare.  
 Vi har fler; loggar av alla typer (kvitton är änna en log-post).
 
 Typiskt DDB.
 
+I en DDB har man något som ger tillbaka en klump med data.  
 
 ## administrativit och ekonomiskt
 
@@ -25,6 +36,11 @@ Då är inte svarstid lika kritisk.
 
 Typiskt RDB.
 
+I en RDB har man mycket data och reducerar det.
+
+# Frågor eller kommentarer på detta?
+
+//
 
 TODO:Flytta.
 ## osäkra modeller/schema
