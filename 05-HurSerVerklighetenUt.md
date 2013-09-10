@@ -27,6 +27,8 @@ Vi har fler; loggar av alla typer (kvitton är änna en log-post).
 
 Typiskt DDB.
 
+DDBer är inte begränsade till temporal data - det var ett exempel på användningsområde.  
+
 I en DDB har man något som ger tillbaka en klump med data.  
 
 ## administrativit och ekonomiskt
