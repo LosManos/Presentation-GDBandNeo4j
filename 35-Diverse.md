@@ -14,10 +14,10 @@ Open source
 
 Svenskt
 
-## Schema
+## Schema kontra osäkra modeller
 
 Bra eller dåligt.
-Det finns ingen orsak, jag ser, att mana inte kan ha en RDB utan schema och en DDB med schema.
+Det finns ingen orsak, jag ser, att man inte kan ha en RDB utan schema och en DDB med schema.
 
 ## Vi är så himla vana vid RDB
 
@@ -25,6 +25,12 @@ Vi är så himla vana vid RDB att vi glömmer att det finns andra sätt att tän
 Innan SQL blev lingua franca pratade man på olika sätt med olika databaser.
 Innan RDB vann databaskriget var det inte säkert att det var RDB man skulle använda.
 En gång i tiden *ryser* fanns det något som hette DBA och de styrde med järnhand och sadism över datalagring och därmed alla andra. Idag har vi spridit ut denna kunskap mellan andra professioner som utvecklare, devops, arkitekter och sysops.
+
+## ACID kontra BASE
+
+Behöver vi verkligen ACID?  
+Transationer  - det finns många typer. Ta t.ex. när du köper en bok på Amazon. När du har beställt din bok är den inte på posten, den är kanske inte ens tryckt. Men du kan önska pengarna tillbaka långt senare. Denna transaktionen ligger inte öppen i en RDB utan är implementerad på ett helt annat sätt.
+Loggning - visst skall CreatedBy- och ModifiedBy-fälten peka på en användare men är det kritiskt? I en medicinjournal - ja. I ett projekts todo-lista - knappast.
 
 ## Relationer
 

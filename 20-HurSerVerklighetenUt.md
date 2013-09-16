@@ -53,13 +53,6 @@ Eventuellt kommer vi/jag i framtiden inte tycka detta.
 //
 
 TODO:Flytta.
-## osäkra modeller/schema
-?? Flytta detta till var ??
-Om vi får tydligt avgränsade data; dokument, böcker, (inte order för det liknar en transaktion) men vi inte vet hur de ser ut 
-eller de är krångliga att modellera eller vi misstänker de kommer ändra sig med tiden.
-Det finns ingen orsak, jag ser, att mana inte kan ha en RDB utan schema och en DDB med schema.
-
-.. ACID vs BASE-eventual concictensy .. TODO:Flytta.
 
 ## blanda modeller, använd rätt verktyg
 

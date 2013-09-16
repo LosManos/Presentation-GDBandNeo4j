@@ -8,4 +8,4 @@ https://bitbucket.org/Readify/neo4jclient/
 
 Neo4j:
 http://neo4j.org
-
+http://console.neo4j.org	<- testa online
