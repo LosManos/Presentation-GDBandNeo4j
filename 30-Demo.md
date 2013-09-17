@@ -23,6 +23,14 @@ MATCH a:Person, b:Person Where a.name='Ola' and b.name='BillG' CREATE a-[r:FRIEN
 CREATE (n:Person { name : 'Adam' }) return n;
 MATCH a:Person, b:Person Where a.name='Ola' and b.name='Adam' CREATE a-[r:FRIEND]->b Return r;
 MATCH a:Person, b:Person Where a.name='Ola' and b.name='Adam' CREATE b-[r:FRIEND]->a Return r;
-CREATE (n:Person { name : 'Charles' }) return n;
-MATCH a:Person, b:Person Where a.name='Ola' and b.name='Charles' CREATE a-[r:FRIEND]->b Return r;
-MATCH a:Person, b:Person Where a.name='Ola' and b.name='Charles' CREATE b-[r:FRIEND]->a Return r;
+CREATE (n:Person { name : 'Cecilia' }) return n;
+MATCH a:Person, b:Person Where a.name='Ola' and b.name='Cecilia' CREATE a-[r:FRIEND]->b Return r;
+MATCH a:Person, b:Person Where a.name='Ola' and b.name='Cecilia' CREATE b-[r:FRIEND]->a Return r;
+
+## Vänner till Ola
+
+start n=node( 305 ) return n.name
+start o=node( 305 ) match o-[:FRIEND]->p return o, p;
+start o=node( 305 ) match o-[:FRIEND]->p-[:FRIEND]->o return o, p;
+start o=node(305) match o-[:FRIEND]->p-[r?:FRIEND]->o where r is null return o, p;
+
