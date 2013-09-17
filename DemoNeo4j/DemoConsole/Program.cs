@@ -11,19 +11,27 @@ namespace DemoConsole
 			var client = new GraphClient(new Uri("http://localhost:7474/db/data"));
 			client.Connect();
 
-			var personNode = client.Get<Person>((NodeReference)6);
+			#region Simple get.
+
+			var personNode = client.Get<Person>((NodeReference)305);
 			H.Write("Person-node", personNode);
 			H.Write("Person-id:", personNode.Reference.Id);
 			H.Write("Person:", personNode.Data);
+			
+			#endregion	//	Simple get.
 
-			var query = client
-				.Cypher
-				.Start(new { me = personNode })
-				.Match("me-[:FRIEND]->other")
-				.Return<Node<Person>>("other");
-			var result = query.Results;
+			#region	Cypher.
 
-			H.Write("Friends of Ola", result.Select( n => n.Data));
+			//var query = client
+			//	.Cypher
+			//	.Start(new { me = personNode })
+			//	.Match("me-[:FRIEND]->(other)")
+			//	.Return < Node< Person >> ("other");
+			//var result = query.Results;
+
+			//H.Write("Friends of Ola", result.Select(n => n));
+
+			#endregion	//	Cypher.
 
 			Console.WriteLine();
 			Console.Write("Press any key...");

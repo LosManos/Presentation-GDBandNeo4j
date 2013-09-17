@@ -34,3 +34,12 @@ start o=node( 305 ) match o-[:FRIEND]->p return o, p;
 start o=node( 305 ) match o-[:FRIEND]->p-[:FRIEND]->o return o, p;
 start o=node(305) match o-[:FRIEND]->p-[r?:FRIEND]->o where r is null return o, p;
 
+## Vidare
+
+Sätt egenskap på relation.
+start o=node(305) match o-[r:FRIEND]->p where p.name='Adam' set r.strength=0.5 return o,r,p;
+start o=node(305) match p-[r:FRIEND]->o where p.name='Adam' set r.strength=0.5 return o,r,p;
+start o=node(305) match o-[r:FRIEND]->p where p.name='Cecilia' set r.strength=0.7 return o,r,p;
+start o=node(305) match p-[r:FRIEND]->o where p.name='Cecilia' set r.strength=0.3 return o,r,p;
+
+start o=node( 305) match o-[r1:FRIEND]->p-[r2:FRIEND]->o where has(r1.strength) and has(r2.strength) return o,r1,p,r2;

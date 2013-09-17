@@ -10,7 +10,7 @@ namespace DemoConsole
 	internal class Person
 	{
 		[JsonProperty("name")]
-		internal string Name { get; set; }
+		public string Name { get; set; }
 
 		public override string ToString()
 		{
