@@ -1,13 +1,14 @@
 <NotepadPlus>
     <Session activeView="0">
-        <mainView activeIndex="0">
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="21" endPos="21" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\01-Forberedelser.md" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="2072" startPos="2" endPos="2" selMode="0" lang="Normal Text" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\02-PersonligPresentation.md" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="2072" startPos="239" endPos="239" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\10-Skillnader.md" />
-            <File firstVisibleLine="16" xOffset="0" scrollWidth="2072" startPos="1888" endPos="1888" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\20-HurSerVerklighetenUt.md" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="2072" startPos="10" endPos="10" selMode="0" lang="Normal Text" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\30-Demo.md" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="436" endPos="436" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\35-Diverse.md" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="2072" startPos="49" endPos="49" selMode="0" lang="Normal Text" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\40-Avslutning.md" />
+        <mainView activeIndex="4">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="17" endPos="17" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\01-Forberedelser.md" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="2" endPos="2" selMode="0" lang="Normal Text" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\02-PersonligPresentation.md" />
+            <File firstVisibleLine="42" xOffset="0" scrollWidth="2121" startPos="3341" endPos="3341" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\10-Skillnader.md" />
+            <File firstVisibleLine="6" xOffset="0" scrollWidth="2121" startPos="1825" endPos="1865" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\20-HurSerVerklighetenUt.md" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="0" endPos="0" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\30-CypherDemo.md" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="88" endPos="88" selMode="0" lang="Markdown" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\35-Diverse.md" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="181" endPos="181" selMode="0" lang="Normal Text" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\40-Avslutning.md" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2121" startPos="555" endPos="654" selMode="3" lang="Normal Text" encoding="-1" filename="C:\DATA\PROJEKT\Presentation-GDBandNeo4j\scripts.txt" />
         </mainView>
         <subView activeIndex="0" />
     </Session>

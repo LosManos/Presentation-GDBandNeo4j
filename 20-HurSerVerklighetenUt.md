@@ -35,7 +35,7 @@ DDBer är inte begränsade till temporal data - det var ett exempel på användn
 
 I en DDB har man något som ger tillbaka en klump med data.  
 
-## Administrativit och ekonomiskt - typiskt listbaserat
+## Administrativt och ekonomiskt - typiskt listbaserat
 
 En gg i månaden, vid den magiska eller natulrlagbeskaffade sista-dagen-i-månaden, skall vi hämta ut data från många ställen.  
 Då är inte svarstid lika kritisk.
@@ -49,13 +49,3 @@ Eventuellt kommer vi/jag i framtiden inte tycka detta.
 )
 
 # Frågor eller kommentarer på detta?
-
-//
-
-TODO:Flytta.
-
-## blanda modeller, använd rätt verktyg
-
-Typiskt faller vi tillbaka på RDB för att vi 1gg i månaden, tryggt på kontoret, i en säker miljö, med tillåtna fördröjningar
-skall få det enkelt.
-

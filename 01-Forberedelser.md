@@ -21,6 +21,7 @@ Starta Neo4j.
 Öppna webbäsare @ http://localhost:7474/webadmin/#/console/  
 	Se att den exekverar.
 	Verifiera att den går att läsa på projektorn.
+	Rensa databasen
 
 Öppna dotnetprojektet.
 	Kolla att VS går att läsa på projektorn.
