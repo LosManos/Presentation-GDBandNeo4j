@@ -3,16 +3,16 @@
 ## Setup, förberedelser
 
 ### Visa alla utom 0  
-start n=node(*) where ID(n) >= 1 return n;
+    start n=node(*) where ID(n) >= 1 return n;
 
 ### Radera först med relationer och sedan utan.
-start n=node(*) match n-[r]-() where ID(n) >= 1 DELETE n,r;
-start n=node(*) where ID(n) >= 1 delete n;
+    start n=node(*) match n-[r]-() where ID(n) >= 1 DELETE n,r;
+    start n=node(*) where ID(n) >= 1 delete n;
 
 ### Visa alla
-start n=node(*) return n;
-START n=node(*) return count(n);
-START r=rel(*) return count(r);
+    start n=node(*) return n;
+    START n=node(*) return count(n);
+    START r=rel(*) return count(r);
 
 ## Exekvera
 
@@ -32,18 +32,18 @@ START r=rel(*) return count(r);
 
 ## Vänner till Ola
 
-start n=node( 305 ) return n.name;
-//start o=node( 305 ) match o-[:FRIEND]->p return o, p;
-match (o:Person)-[:FRIEND]->p where o.name='Ola' return o, p;
-start o=node( 305 ) match o-[:FRIEND]->p-[:FRIEND]->o return o, p;
-start o=node(305) match o-[:FRIEND]->p-[r?:FRIEND]->o where r is null return o, p;
+    start n=node( 305 ) return n.name;
+    //start o=node( 305 ) match o-[:FRIEND]->p return o, p;
+    match (o:Person)-[:FRIEND]->p where o.name='Ola' return o, p;
+    start o=node( 305 ) match o-[:FRIEND]->p-[:FRIEND]->o return o, p;
+    start o=node(305) match o-[:FRIEND]->p-[r?:FRIEND]->o where r is null return o, p;
 
 ## Vidare
 
 Sätt egenskap på relation.
-start o=node(305) match o-[r:FRIEND]->p where p.name='Adam' set r.strength=0.5 return o,r,p;
-start o=node(305) match p-[r:FRIEND]->o where p.name='Adam' set r.strength=0.5 return o,r,p;
-start o=node(305) match o-[r:FRIEND]->p where p.name='Cecilia' set r.strength=0.7 return o,r,p;
-start o=node(305) match p-[r:FRIEND]->o where p.name='Cecilia' set r.strength=0.3 return o,r,p;
+    start o=node(305) match o-[r:FRIEND]->p where p.name='Adam' set r.strength=0.5 return o,r,p;
+    start o=node(305) match p-[r:FRIEND]->o where p.name='Adam' set r.strength=0.5 return o,r,p;
+    start o=node(305) match o-[r:FRIEND]->p where p.name='Cecilia' set r.strength=0.7 return o,r,p;
+    start o=node(305) match p-[r:FRIEND]->o where p.name='Cecilia' set r.strength=0.3 return o,r,p;
 
-start o=node( 305) match o-[r1:FRIEND]->p-[r2:FRIEND]->o where has(r1.strength) and has(r2.strength) return o,r1,p,r2;
+    start o=node( 305) match o-[r1:FRIEND]->p-[r2:FRIEND]->o where has(r1.strength) and has(r2.strength) return o,r1,p,r2;
