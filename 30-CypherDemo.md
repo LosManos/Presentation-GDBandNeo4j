@@ -32,8 +32,9 @@ START r=rel(*) return count(r);
 
 ## Vänner till Ola
 
-start n=node( 305 ) return n.name
-start o=node( 305 ) match o-[:FRIEND]->p return o, p;
+start n=node( 305 ) return n.name;
+//start o=node( 305 ) match o-[:FRIEND]->p return o, p;
+match (o:Person)-[:FRIEND]->p where o.name='Ola' return o, p;
 start o=node( 305 ) match o-[:FRIEND]->p-[:FRIEND]->o return o, p;
 start o=node(305) match o-[:FRIEND]->p-[r?:FRIEND]->o where r is null return o, p;
 
