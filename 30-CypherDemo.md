@@ -14,6 +14,11 @@
     START n=node(*) return count(n);
     START r=rel(*) return count(r);
 
+## Prata
+
+Förutom Cypher finns Gremlin och ParQL(?)  
+Gremlin verkar på väg bort - även om jag tror det kommer stödjas i framtiden.
+	
 ## Exekvera
 
     CREATE (n:Person { name : 'Ola' }) return n;
