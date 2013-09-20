@@ -1,5 +1,7 @@
 # Verkligheten
 
+5 minuter, tight
+
 (
 Det är inte så att data är det ena eller det andra.
 Jämför:
@@ -7,7 +9,7 @@ Jämför:
 	Men när den listar ut vilka fält som påverkar vilka är det typiskt en graf.
 )
 
-## Det mesta operativa vi gör är grafbaserat.
+## Det mesta operativa vi gör är grafbaserat. - OPERATIVT:GRAF
 
 Kan tänkas det mesta vi gör är operativt.  
 En läkare vill inte veta vilka mediciner en patient har av alla 10000 mediciner som har skrivits ut detta året.  
@@ -23,7 +25,7 @@ RDB är typiskt _alla_ mediciner och sedan minskar man datamängden
 ..med GDB lägger vi till data i svaret istf filtrera bort..
 )
 
-## Temporalt är saker som inte förändrar sig över tiden (bestämde jag precis)
+## Temporalt är saker som inte förändrar sig över tiden (bestämde jag precis) - TEMPORALT:DOKUMENT
 
 Data som är fixerade i tiden. Exempelvis kvitton. Eller recept för en läkare.  
 Ett kvitto är utställt till någon oavsett om denna flyttar senare.  
@@ -35,7 +37,7 @@ DDBer är inte begränsade till temporal data - det var ett exempel på användn
 
 I en DDB har man något som ger tillbaka en klump med data.  
 
-## Administrativt och ekonomiskt - typiskt listbaserat
+## Administrativt och ekonomiskt - typiskt listbaserat - STATISTIK OCH MÄNGDER:RDB
 
 En gg i månaden, vid den magiska eller natulrlagbeskaffade sista-dagen-i-månaden, skall vi hämta ut data från många ställen.  
 Då är inte svarstid lika kritisk.
@@ -48,4 +50,4 @@ I en RDB har man mycket data och reducerar det.
 Eventuellt kommer vi/jag i framtiden inte tycka detta.
 )
 
-# Frågor eller kommentarer på detta?
+# Frågor eller kommentarer på detta? - FRÅGOR

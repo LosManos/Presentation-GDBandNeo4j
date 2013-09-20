@@ -1,14 +1,18 @@
 # Diverse
 
+5 minuter.
+
+## Några snabba
+
 Skrivet i java
 
-Man kan köra inprocess och ha APi-anrop
+I Java-världen kan man köra inprocess och ha APi-anrop
 
 neo4jspring
 
 Annars rest-anrop
 
-Version 2 på gång?
+Version 2 på gång.
 
 Open source
 
@@ -16,8 +20,9 @@ Svenskt
 
 ## Schema kontra osäkra modeller
 
-Bra eller dåligt.
-Det finns ingen orsak, jag ser, att man inte kan ha en RDB utan schema och en DDB med schema.
+Bra eller dåligt.  
+Det finns ingen orsak, jag ser, att man inte kan ha en RDB utan schema och en DDB med schema.  
+Skall man ha schema i databasen eller i ett lager över? - RDB är eventuellt för monolitisk.
 
 ## Vi är så himla vana vid RDB
 

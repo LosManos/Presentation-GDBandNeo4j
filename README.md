@@ -11,6 +11,8 @@ With Cypher (vs SQL) one describes _what_ to find instead of _how_ to find it.
 
 How do I get started with Neo4j in a Dotnet world?
 
+*The talk is 30 minutes; up to 60.*
+
 **If there is one and only one thing to remember after this talk it is:**  
 [ **If every tool you have is a hammer then all problems are a nail.** ]
 
@@ -25,5 +27,16 @@ Med Cypher (till skillnad från SQL) kan man beskriva _vad_ man vill hitta istä
 
 Hur kommer jag igång med Neo4j i en Dotnet-värld?
 
+*Föredraget är 30 minuter, upp till 60.*
+
 **Om det är en enda sak man skall komma ihåg efter föredraget är det:**  
 [ **Om alla verktyg man har är en hammare är alla problem en spik.** ]
+
+### Exempel på användning
+
+Filerna är .md, markdown. Om man visar dem i en Markdown-kunnig editor får man rubriker och annat semigrafiskt.  
+
+MD-filer med versalt namn är de som är tänkta att visa.  
+MD-filernas kronologiskaordning är samma som nummerordningen. Om man vill.
+Resterande MD-filer är själva föredraget. Rubriker motsvarar ungefär stödord. Versaler i rubriker motsvarar ännu mer stödord.
+Man hinner inte tala om allt på 30 minuter. Dessa 30 minuter inkluderar inte personlig presentation; det är ingen som lyssnar på det ändå.
