@@ -32,7 +32,7 @@ Hur kommer jag igång med Neo4j i en Dotnet-värld?
 **Om det är en enda sak man skall komma ihåg efter föredraget är det:**  
 [ **Om alla verktyg man har är en hammare är alla problem en spik.** ]
 
-### Exempel på användning
+### Exempel på användning av presentationen
 
 Filerna är .md, markdown. Om man visar dem i en Markdown-kunnig editor får man rubriker och annat semigrafiskt.  
 
